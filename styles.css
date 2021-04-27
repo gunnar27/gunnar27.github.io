@@ -1,0 +1,87 @@
+.grid-container {
+  display: grid;
+  background-color: lightgrey;
+  font-family: "New Tegomin", "serif";
+  /* border-style: solid; */
+
+  grid-template-areas:
+    "header header header header header header"
+    "bio bio bio bio bio bio"
+    "footer footer footer footer footer footer";
+  grid-gap: 10px;
+  padding: 10px;
+  border-radius: 1%;
+}
+
+/* Simple Grid Styling */
+.item1 {
+  grid-area: header;
+  border-radius: 5%;
+}
+.item2 {
+  grid-area: bio;
+  border-radius: 5%;
+}
+
+#item2 nav {
+  height: 100%;
+}
+
+.item4 {
+  grid-area: footer;
+  background-color: #212529 !important;
+  border-radius: 5%;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.grid-container > .navbar-pic-name {
+  left: 5%;
+  display: inline;
+}
+
+.card {
+  background-color: #212529 !important;
+}
+
+.card-img-top {
+  align-self: center;
+}
+
+.card-body {
+  align-self: center;
+}
+
+.wolf {
+  width: 15%;
+  border-radius: 5%;
+}
+
+.navbar-brand {
+  margin-left: 1%;
+}
+
+h3,
+h5,
+p {
+  color: lightgrey;
+}
+ul {
+  position: absolute;
+  right: 5%;
+}
+
+.github {
+  margin-top: 2%;
+}
+
+.linkedin {
+  margin-top: 2%;
+}
+.contact {
+  margin-top: 2%;
+}

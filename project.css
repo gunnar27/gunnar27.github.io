@@ -1,0 +1,71 @@
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "one one two two"
+    "three three three ..."
+    "four four ... ...";
+  grid-gap: 10px;
+  background-color: lightgray;
+  padding: 1%;
+  font-family: "New Tegomin", "serif";
+}
+
+.header {
+  grid-area: header;
+  background-color: #212529 !important;
+
+  margin: 1%;
+}
+.item1 {
+  grid-area: one;
+  background-color: #212529 !important;
+  border-radius: 2%;
+  margin: 1%;
+}
+.item2 {
+  grid-area: two;
+  background-color: #212529 !important;
+  border-radius: 2%;
+  margin: 1%;
+}
+.item3 {
+  grid-area: three;
+  background-color: #212529 !important;
+  border-radius: 2%;
+  margin: 1%;
+}
+
+.item4 {
+  grid-area: four;
+  background-color: #212529 !important;
+  border-radius: 2%;
+  margin: 1%;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.card {
+  background-color: #212529 !important;
+}
+
+.card-img-top {
+  align-self: center;
+}
+
+.card-body {
+  align-self: center;
+}
+
+h3,
+h5,
+p {
+  color: lightgrey;
+}
+/* #navbarSupportedContent {
+  left: 75%;
+} */
